@@ -1,6 +1,64 @@
 # shell_scripting
 Basic Shell Scripting<br>
-Open a shell terminal and try the commands below.<br><br>
+Open a shell terminal and try the commands below.<br><be>
+
+**Comparison Operators**<br>
+**For numerical values**<br>
+`-eq`: equal<br>
+`-ne`: not equal<br>
+`-gt`: greater than<br>
+`-ge`: greater or equal<br>
+`-lt`: less than<br>
+`-le`: less of equal<br>
+<br>
+**for string values**<br>
+<br>
+`=`: equals<br>
+`!`=: not equal<br>
+`<`: less than (in alphabetical order)<br>
+`>`: greater than (in alphabetical order)<br>
+<br>
+**Logical Operators**:<br>
+`!`: NOT<br>
+`-a`: AND<br>
+`-o`: OR<br>
+<br>
+<be>
+**Example** <br>
+`if [ "$a" -eq "$b" ]; then`<br>
+    `echo "a is equal to b"`<br>
+`fi`<br>
+<br>
+`if [ "$a" != "$b" ]; then`<br>
+    `echo "a is not equal to b"`<br>
+`fi`<br>
+<br>
+`if [ "$a" -lt "$b" -a "$c" -gt "$d" ]; then`<br>
+    `echo "a is less than b AND c is greater than d"`<br>
+`fi`<br>
+<br>
+<br>
+
+**File Comparisons**:<br>
+There are also operators in Bash to gather information about files.<br>
+<br>
+`-e`: Does the file exist?<br>
+`-f`: Is it a regular file?<br>
+`-d`: Is it a directory?<br>
+`-s`: Is the file empty?<br>
+`-r`: Is the file readable?<br>
+`-w`: Is the file writable?<br>
+`-x`: Is the file executable?<br>
+<br>
+**Example** <br>
+`if [ -e "/path/to/file" ]; then`<br>
+    `echo "File exists"`<br>
+`fi`<br>
+<br>
+
+
+
+
 **Using Variables**<br><br>
 <img width="653" alt="Screenshot 2023-08-04 at 23 34 29" src="https://github.com/EryEr/shell_scripting/assets/138815393/71bc2dd3-c1e2-44f5-9645-93e8cf84040c"><br><br>
 
