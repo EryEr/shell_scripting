@@ -2,6 +2,7 @@
 Basic Shell Scripting<br>
 Open a shell terminal and try the commands below.<br><be>
 
+
 **Comparison Operators**<br>
 **For numerical values**<br>
 `-eq`: equal<br>
@@ -55,7 +56,6 @@ There are also operators in Bash to gather information about files.<br>
     `echo "File exists"`<br>
 `fi`<br>
 <br>
-
 
 
 
