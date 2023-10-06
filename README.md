@@ -15,7 +15,7 @@ Open a shell terminal and try the commands below.<br><be>
 **for string values**<br>
 <br>
 `=`: equals<br>
-`!`=: not equal<br>
+`!=`: not equal<br>
 `<`: less than (in alphabetical order)<br>
 `>`: greater than (in alphabetical order)<br>
 <br>
